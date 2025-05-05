@@ -8,7 +8,7 @@ const fs = require('fs');
 let router = express.Router()
 const pino = require("pino");
 const {
-	default: Wasi_Tech,
+	default: ZUKO_MD,
 	useMultiFileAuthState,
 	jidNormalizedUser,
 	Browsers,
@@ -59,21 +59,26 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By Phantom Tech_*
-*_Made With ❤️✨_*
+*_Session Connected By ZUKO🇳🇬_*
+*_Made With ❤️_*
 ______________________________________
 ╔════◇
-║ *『AMAZING YOU'VE CHOSEN WASI MD』*
+║ *『AMAZING YOU'VE CHOSEN ZUKO-MD』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
+
+
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ *Ytube:* _youtube.com/@BOTKING
 ║❒ *Owner:* _https://wa.me/message/2349079055953_
-║❒ *Repo:* _https://github.com/Neggy5/PHANTOM_MD_
+║❒ *Repo:* _https://github.com/Neggy5/ZUKO-MD_
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaySwxF9Bb67U6rkUB2i
-║❒ *Plugins:* _https://github.com/Neggy⁵
+║❒ *Plugins:* _https://github.com/Neggy5
 ╚════════════════════════╝
+
+
+				
 _____________________________________
 	
 _Don't Forget To Give Star To My Repo_`
