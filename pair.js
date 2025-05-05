@@ -57,8 +57,8 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by WASI TECH*
-*_Made With 🤍_*
+*_Pair Code Connected by ZUKO🇳🇬*
+*_Made With ❤️_*
 ______________________________________
 ╔════◇
 ║ *『 WOW YOU'VE CHOSEN PHANTOM MD 』*
@@ -68,14 +68,14 @@ ______________________________________
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ *Ytube:* _youtube.com/@BOTKING_
 ║❒ *Owner:* _https://wa.me/2349079055953_
-║❒ *Repo:* _https://github.com/Neggy5/PHANTOM_MD
+║❒ *Repo:* _https://github.com/Neggy5/ZUKO-MD 
 ║❒ *WaChanell:* _https://whatsapp.com/channel/0029VaySwxF9Bb67U6rkUB2i
-║❒ *Plugins:* _https://github.com/wasixd/PHANTOM_MD-PLUGINS_
+║❒ *Plugins:* _https://github.com/Neggy5/ZUKO-MD-PLUGINS_
 ╚════════════════════════╝
 _____________________________________
 
 _Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Zuko.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
         await delay(100);
